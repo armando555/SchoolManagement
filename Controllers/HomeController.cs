@@ -15,7 +15,7 @@ namespace SchoolManagement.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Hello bitch.";
 
             return View();
         }
@@ -24,6 +24,10 @@ namespace SchoolManagement.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+        public ActionResult TestView()
+        {
             return View();
         }
     }
